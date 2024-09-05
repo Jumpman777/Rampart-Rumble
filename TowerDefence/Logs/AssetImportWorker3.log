@@ -1,0 +1,3277 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.42f1 (2dcb6a0abc42) revision 3001194'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16289 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/wandi/OneDrive/Documents/TowerDefence
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+57843
+Successfully changed project path to: C:/Users/wandi/OneDrive/Documents/TowerDefence
+C:/Users/wandi/OneDrive/Documents/TowerDefence
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13576]  Target information:
+
+Player connection [13576]  * "[IP] 192.168.1.66 [Port] 0 [Flags] 2 [Guid] 1618104056 [EditorId] 1618104056 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DA3UA5F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13576] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13576] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 1846.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.42f1 (2dcb6a0abc42)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/wandi/OneDrive/Documents/TowerDefence/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD FirePro M6100 (ID=0x6640)
+    Vendor:   ATI
+    VRAM:     2024 MB
+    Driver:   27.20.1027.2005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.825308 seconds.
+- Loaded All Assemblies, in 39.023 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 71.360 seconds
+Domain Reload Profiling: 110343ms
+	BeginReloadAssembly (5990ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (1623ms)
+	RebuildNativeTypeToScriptingClass (604ms)
+	initialDomainReloadingComplete (4772ms)
+	LoadAllAssembliesAndSetupDomain (25976ms)
+		LoadAssemblies (5791ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25899ms)
+			TypeCache.Refresh (25730ms)
+				TypeCache.ScanAssembly (15478ms)
+			ScanForSourceGeneratedMonoScriptInfo (38ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (71378ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (56805ms)
+			LogAssemblyErrors (1ms)
+			InitializePlatformSupportModulesInManaged (734ms)
+			SetLoadedEditorAssemblies (671ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (241ms)
+			ProcessInitializeOnLoadAttributes (48955ms)
+			ProcessInitializeOnLoadMethodAttributes (6197ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 133.985 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 24.375 seconds
+Domain Reload Profiling: 158250ms
+	BeginReloadAssembly (6157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (333ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (456ms)
+	RebuildCommonClasses (1733ms)
+	RebuildNativeTypeToScriptingClass (683ms)
+	initialDomainReloadingComplete (2790ms)
+	LoadAllAssembliesAndSetupDomain (122496ms)
+		LoadAssemblies (114270ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10837ms)
+			TypeCache.Refresh (10356ms)
+				TypeCache.ScanAssembly (9388ms)
+			ScanForSourceGeneratedMonoScriptInfo (338ms)
+			ResolveRequiredComponents (124ms)
+	FinalizeReload (24391ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (18022ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (191ms)
+			SetLoadedEditorAssemblies (114ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1460ms)
+			ProcessInitializeOnLoadAttributes (15157ms)
+			ProcessInitializeOnLoadMethodAttributes (821ms)
+			AfterProcessingInitializeOnLoad (275ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (252ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.90 seconds
+Refreshing native plugins compatible for Editor in 115.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3110 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.7 KB). Loaded Objects now: 3591.
+Memory consumption went from 131.3 MB to 131.3 MB.
+Total: 187.224900 ms (FindLiveObjects: 16.346200 ms CreateObjectMapping: 7.125700 ms MarkObjects: 160.876000 ms  DeleteObjects: 2.158400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 15.615 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 34.075 seconds
+Domain Reload Profiling: 49587ms
+	BeginReloadAssembly (5232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (360ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (892ms)
+	RebuildCommonClasses (1294ms)
+	RebuildNativeTypeToScriptingClass (418ms)
+	initialDomainReloadingComplete (1013ms)
+	LoadAllAssembliesAndSetupDomain (7539ms)
+		LoadAssemblies (10021ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (649ms)
+			TypeCache.Refresh (224ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (190ms)
+			ResolveRequiredComponents (217ms)
+	FinalizeReload (34091ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (16369ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (227ms)
+			SetLoadedEditorAssemblies (111ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2346ms)
+			ProcessInitializeOnLoadAttributes (12404ms)
+			ProcessInitializeOnLoadMethodAttributes (974ms)
+			AfterProcessingInitializeOnLoad (300ms)
+			EditorAssembliesLoaded (7ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (269ms)
+Refreshing native plugins compatible for Editor in 93.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3594.
+Memory consumption went from 127.5 MB to 127.5 MB.
+Total: 68.696200 ms (FindLiveObjects: 2.915100 ms CreateObjectMapping: 2.214600 ms MarkObjects: 62.921800 ms  DeleteObjects: 0.558100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: be3d53a5ee05a4238f41f726e1a24cc0 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 178177.022265 seconds.
+  path: Assets/Scripts/Defender.cs
+  artifactKey: Guid(babcb71abd64c4d4eaa8d2c79736a38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Defender.cs using Guid(babcb71abd64c4d4eaa8d2c79736a38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9c352e995b791a62edab5f1ae242189a') in 0.047100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/DiamondSqaureTerrain.cs
+  artifactKey: Guid(7df6405388028b648ab36b97c5a7055e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DiamondSqaureTerrain.cs using Guid(7df6405388028b648ab36b97c5a7055e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e58e0309d03c34de0cd3e28d895c469f') in 0.013303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 18.526 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 37.001 seconds
+Domain Reload Profiling: 55427ms
+	BeginReloadAssembly (5573ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (501ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (853ms)
+	RebuildCommonClasses (1391ms)
+	RebuildNativeTypeToScriptingClass (441ms)
+	initialDomainReloadingComplete (1118ms)
+	LoadAllAssembliesAndSetupDomain (9887ms)
+		LoadAssemblies (11272ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1821ms)
+			TypeCache.Refresh (658ms)
+				TypeCache.ScanAssembly (9ms)
+			ScanForSourceGeneratedMonoScriptInfo (457ms)
+			ResolveRequiredComponents (687ms)
+	FinalizeReload (37018ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (16831ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (326ms)
+			SetLoadedEditorAssemblies (118ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2607ms)
+			ProcessInitializeOnLoadAttributes (12684ms)
+			ProcessInitializeOnLoadMethodAttributes (847ms)
+			AfterProcessingInitializeOnLoad (245ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (237ms)
+Refreshing native plugins compatible for Editor in 108.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.04 ms.
+Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3598.
+Memory consumption went from 127.3 MB to 127.2 MB.
+Total: 59.995400 ms (FindLiveObjects: 3.812900 ms CreateObjectMapping: 2.153000 ms MarkObjects: 53.166000 ms  DeleteObjects: 0.693300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 04dd2d3c70adcc3a1b0f88993a435dd9 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 18.723 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 54.827 seconds
+Domain Reload Profiling: 73456ms
+	BeginReloadAssembly (5821ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (272ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (751ms)
+	RebuildCommonClasses (2036ms)
+	RebuildNativeTypeToScriptingClass (498ms)
+	initialDomainReloadingComplete (1170ms)
+	LoadAllAssembliesAndSetupDomain (9090ms)
+		LoadAssemblies (11474ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1189ms)
+			TypeCache.Refresh (490ms)
+				TypeCache.ScanAssembly (29ms)
+			ScanForSourceGeneratedMonoScriptInfo (438ms)
+			ResolveRequiredComponents (244ms)
+	FinalizeReload (54842ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (33163ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (279ms)
+			SetLoadedEditorAssemblies (209ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3211ms)
+			ProcessInitializeOnLoadAttributes (27490ms)
+			ProcessInitializeOnLoadMethodAttributes (991ms)
+			AfterProcessingInitializeOnLoad (979ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (262ms)
+Script is not up to date after domain reload: guid(4a38688a188af1e4087425c1f49f972c) path("Assets/Scripts/TowerDefenceTerrain.cs") state(2)
+Refreshing native plugins compatible for Editor in 370.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.03 ms.
+Unloading 3089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (29.6 KB). Loaded Objects now: 3599.
+Memory consumption went from 127.5 MB to 127.5 MB.
+Total: 96.847800 ms (FindLiveObjects: 4.799600 ms CreateObjectMapping: 2.395100 ms MarkObjects: 88.950600 ms  DeleteObjects: 0.553200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c0633c23c775d157652a563080bea26e -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 16.816 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 31.161 seconds
+Domain Reload Profiling: 47872ms
+	BeginReloadAssembly (6412ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (282ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (818ms)
+	RebuildCommonClasses (1367ms)
+	RebuildNativeTypeToScriptingClass (430ms)
+	initialDomainReloadingComplete (1195ms)
+	LoadAllAssembliesAndSetupDomain (7294ms)
+		LoadAssemblies (11024ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (629ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (201ms)
+			ResolveRequiredComponents (223ms)
+	FinalizeReload (31173ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (16430ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (227ms)
+			SetLoadedEditorAssemblies (138ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1803ms)
+			ProcessInitializeOnLoadAttributes (12676ms)
+			ProcessInitializeOnLoadMethodAttributes (1232ms)
+			AfterProcessingInitializeOnLoad (351ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (410ms)
+Script is not up to date after domain reload: guid(9dd834af964b9f04184ee62b1e9d7bfa) path("Assets/Scripts/GameTerrain.cs") state(2)
+Refreshing native plugins compatible for Editor in 97.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.03 ms.
+Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3603.
+Memory consumption went from 127.5 MB to 127.5 MB.
+Total: 76.822500 ms (FindLiveObjects: 3.710000 ms CreateObjectMapping: 2.271900 ms MarkObjects: 70.130300 ms  DeleteObjects: 0.594900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7c0ad51b5fa5f9227a0eb04cb5df2ab9 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 20.578 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 41.020 seconds
+Domain Reload Profiling: 61475ms
+	BeginReloadAssembly (7943ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (276ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (1342ms)
+	RebuildCommonClasses (1583ms)
+	RebuildNativeTypeToScriptingClass (478ms)
+	initialDomainReloadingComplete (1269ms)
+	LoadAllAssembliesAndSetupDomain (9167ms)
+		LoadAssemblies (13461ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (720ms)
+			TypeCache.Refresh (244ms)
+				TypeCache.ScanAssembly (10ms)
+			ScanForSourceGeneratedMonoScriptInfo (266ms)
+			ResolveRequiredComponents (186ms)
+	FinalizeReload (41036ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (18103ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (229ms)
+			SetLoadedEditorAssemblies (133ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2362ms)
+			ProcessInitializeOnLoadAttributes (14454ms)
+			ProcessInitializeOnLoadMethodAttributes (703ms)
+			AfterProcessingInitializeOnLoad (219ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (193ms)
+Refreshing native plugins compatible for Editor in 125.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.04 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3607.
+Memory consumption went from 127.5 MB to 127.5 MB.
+Total: 139.864700 ms (FindLiveObjects: 7.194800 ms CreateObjectMapping: 5.016500 ms MarkObjects: 126.937100 ms  DeleteObjects: 0.597500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7469ee7094e4d5d6658d80f9b13a163d -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 16.516 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 41.804 seconds
+Domain Reload Profiling: 58254ms
+	BeginReloadAssembly (5811ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (283ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (665ms)
+	RebuildCommonClasses (2021ms)
+	RebuildNativeTypeToScriptingClass (520ms)
+	initialDomainReloadingComplete (1012ms)
+	LoadAllAssembliesAndSetupDomain (7072ms)
+		LoadAssemblies (10555ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (600ms)
+			TypeCache.Refresh (166ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (231ms)
+			ResolveRequiredComponents (183ms)
+	FinalizeReload (41819ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (20433ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (188ms)
+			SetLoadedEditorAssemblies (111ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1846ms)
+			ProcessInitializeOnLoadAttributes (16294ms)
+			ProcessInitializeOnLoadMethodAttributes (1293ms)
+			AfterProcessingInitializeOnLoad (693ms)
+			EditorAssembliesLoaded (7ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (263ms)
+Refreshing native plugins compatible for Editor in 649.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3610.
+Memory consumption went from 127.5 MB to 127.5 MB.
+Total: 79.476800 ms (FindLiveObjects: 3.967100 ms CreateObjectMapping: 4.098300 ms MarkObjects: 70.533900 ms  DeleteObjects: 0.786700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7469ee7094e4d5d6658d80f9b13a163d -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 70.454 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 195.579 seconds
+Domain Reload Profiling: 265874ms
+	BeginReloadAssembly (5729ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (252ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (806ms)
+	RebuildCommonClasses (1074ms)
+	RebuildNativeTypeToScriptingClass (382ms)
+	initialDomainReloadingComplete (1448ms)
+	LoadAllAssembliesAndSetupDomain (61641ms)
+		LoadAssemblies (65004ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (470ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (267ms)
+	FinalizeReload (195599ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (18148ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (435ms)
+			SetLoadedEditorAssemblies (217ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3786ms)
+			ProcessInitializeOnLoadAttributes (12697ms)
+			ProcessInitializeOnLoadMethodAttributes (801ms)
+			AfterProcessingInitializeOnLoad (208ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (195ms)
+Refreshing native plugins compatible for Editor in 130.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.03 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3613.
+Memory consumption went from 127.5 MB to 127.5 MB.
+Total: 87.139800 ms (FindLiveObjects: 5.329200 ms CreateObjectMapping: 3.069800 ms MarkObjects: 77.097900 ms  DeleteObjects: 1.561700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7469ee7094e4d5d6658d80f9b13a163d -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 14.067 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 31.190 seconds
+Domain Reload Profiling: 45178ms
+	BeginReloadAssembly (5380ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (234ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (726ms)
+	RebuildCommonClasses (1099ms)
+	RebuildNativeTypeToScriptingClass (402ms)
+	initialDomainReloadingComplete (1044ms)
+	LoadAllAssembliesAndSetupDomain (6046ms)
+		LoadAssemblies (9136ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (438ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (257ms)
+	FinalizeReload (31207ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (14553ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (219ms)
+			SetLoadedEditorAssemblies (142ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2020ms)
+			ProcessInitializeOnLoadAttributes (10966ms)
+			ProcessInitializeOnLoadMethodAttributes (960ms)
+			AfterProcessingInitializeOnLoad (242ms)
+			EditorAssembliesLoaded (5ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (220ms)
+Refreshing native plugins compatible for Editor in 147.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3616.
+Memory consumption went from 127.5 MB to 127.5 MB.
+Total: 58.132600 ms (FindLiveObjects: 3.977700 ms CreateObjectMapping: 3.839300 ms MarkObjects: 48.034400 ms  DeleteObjects: 1.940300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7469ee7094e4d5d6658d80f9b13a163d -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 18.201 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 37.095 seconds
+Domain Reload Profiling: 55156ms
+	BeginReloadAssembly (4862ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (230ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (678ms)
+	RebuildCommonClasses (1923ms)
+	RebuildNativeTypeToScriptingClass (750ms)
+	initialDomainReloadingComplete (1282ms)
+	LoadAllAssembliesAndSetupDomain (9229ms)
+		LoadAssemblies (12013ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (395ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (213ms)
+	FinalizeReload (37109ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (17297ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (273ms)
+			SetLoadedEditorAssemblies (236ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3152ms)
+			ProcessInitializeOnLoadAttributes (12588ms)
+			ProcessInitializeOnLoadMethodAttributes (806ms)
+			AfterProcessingInitializeOnLoad (238ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (189ms)
+Refreshing native plugins compatible for Editor in 117.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.01 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3619.
+Memory consumption went from 127.5 MB to 127.5 MB.
+Total: 71.372000 ms (FindLiveObjects: 3.634800 ms CreateObjectMapping: 4.096500 ms MarkObjects: 62.943300 ms  DeleteObjects: 0.604100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7469ee7094e4d5d6658d80f9b13a163d -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 15.332 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 30.558 seconds
+Domain Reload Profiling: 45775ms
+	BeginReloadAssembly (5486ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (333ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (881ms)
+	RebuildCommonClasses (1146ms)
+	RebuildNativeTypeToScriptingClass (385ms)
+	initialDomainReloadingComplete (1570ms)
+	LoadAllAssembliesAndSetupDomain (6616ms)
+		LoadAssemblies (9446ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (384ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (227ms)
+	FinalizeReload (30571ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (13316ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (235ms)
+			SetLoadedEditorAssemblies (133ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2038ms)
+			ProcessInitializeOnLoadAttributes (10061ms)
+			ProcessInitializeOnLoadMethodAttributes (677ms)
+			AfterProcessingInitializeOnLoad (168ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (171ms)
+Refreshing native plugins compatible for Editor in 103.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.03 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3622.
+Memory consumption went from 127.5 MB to 127.5 MB.
+Total: 55.436800 ms (FindLiveObjects: 3.746000 ms CreateObjectMapping: 5.211000 ms MarkObjects: 45.297500 ms  DeleteObjects: 1.027300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7469ee7094e4d5d6658d80f9b13a163d -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 19.235 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 41.556 seconds
+Domain Reload Profiling: 60596ms
+	BeginReloadAssembly (5059ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (240ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (1169ms)
+	RebuildCommonClasses (1095ms)
+	RebuildNativeTypeToScriptingClass (406ms)
+	initialDomainReloadingComplete (1193ms)
+	LoadAllAssembliesAndSetupDomain (11262ms)
+		LoadAssemblies (13658ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (478ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (277ms)
+	FinalizeReload (41581ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (14434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (307ms)
+			SetLoadedEditorAssemblies (184ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2223ms)
+			ProcessInitializeOnLoadAttributes (10521ms)
+			ProcessInitializeOnLoadMethodAttributes (953ms)
+			AfterProcessingInitializeOnLoad (244ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (271ms)
+Refreshing native plugins compatible for Editor in 105.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3625.
+Memory consumption went from 127.5 MB to 127.5 MB.
+Total: 79.524000 ms (FindLiveObjects: 5.319700 ms CreateObjectMapping: 3.078300 ms MarkObjects: 70.441500 ms  DeleteObjects: 0.604500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7469ee7094e4d5d6658d80f9b13a163d -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 17.703 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 34.704 seconds
+Domain Reload Profiling: 52226ms
+	BeginReloadAssembly (6680ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (291ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (931ms)
+	RebuildCommonClasses (2047ms)
+	RebuildNativeTypeToScriptingClass (921ms)
+	initialDomainReloadingComplete (1304ms)
+	LoadAllAssembliesAndSetupDomain (6556ms)
+		LoadAssemblies (10368ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (706ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (226ms)
+			ResolveRequiredComponents (294ms)
+	FinalizeReload (34717ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (15430ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (288ms)
+			SetLoadedEditorAssemblies (165ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2302ms)
+			ProcessInitializeOnLoadAttributes (11614ms)
+			ProcessInitializeOnLoadMethodAttributes (834ms)
+			AfterProcessingInitializeOnLoad (224ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (188ms)
+Refreshing native plugins compatible for Editor in 141.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3628.
+Memory consumption went from 127.5 MB to 127.5 MB.
+Total: 89.690500 ms (FindLiveObjects: 13.770500 ms CreateObjectMapping: 4.514900 ms MarkObjects: 70.435200 ms  DeleteObjects: 0.766000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7469ee7094e4d5d6658d80f9b13a163d -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 12.879 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 28.631 seconds
+Domain Reload Profiling: 41418ms
+	BeginReloadAssembly (4328ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (251ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (710ms)
+	RebuildCommonClasses (1039ms)
+	RebuildNativeTypeToScriptingClass (398ms)
+	initialDomainReloadingComplete (1002ms)
+	LoadAllAssembliesAndSetupDomain (6007ms)
+		LoadAssemblies (8219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (355ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (196ms)
+	FinalizeReload (28644ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (13549ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (216ms)
+			SetLoadedEditorAssemblies (108ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1939ms)
+			ProcessInitializeOnLoadAttributes (10101ms)
+			ProcessInitializeOnLoadMethodAttributes (944ms)
+			AfterProcessingInitializeOnLoad (236ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (214ms)
+Refreshing native plugins compatible for Editor in 93.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.03 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3631.
+Memory consumption went from 127.6 MB to 127.5 MB.
+Total: 64.924400 ms (FindLiveObjects: 5.398300 ms CreateObjectMapping: 3.954700 ms MarkObjects: 54.688100 ms  DeleteObjects: 0.739300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7469ee7094e4d5d6658d80f9b13a163d -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 20.736 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 60.006 seconds
+Domain Reload Profiling: 80652ms
+	BeginReloadAssembly (6803ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (376ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (1094ms)
+	RebuildCommonClasses (1606ms)
+	RebuildNativeTypeToScriptingClass (465ms)
+	initialDomainReloadingComplete (1343ms)
+	LoadAllAssembliesAndSetupDomain (10402ms)
+		LoadAssemblies (13541ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1034ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (8ms)
+			ScanForSourceGeneratedMonoScriptInfo (343ms)
+			ResolveRequiredComponents (438ms)
+	FinalizeReload (60033ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (23587ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (569ms)
+			SetLoadedEditorAssemblies (241ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2497ms)
+			ProcessInitializeOnLoadAttributes (18931ms)
+			ProcessInitializeOnLoadMethodAttributes (986ms)
+			AfterProcessingInitializeOnLoad (358ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (297ms)
+Refreshing native plugins compatible for Editor in 114.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3634.
+Memory consumption went from 127.6 MB to 127.5 MB.
+Total: 110.716500 ms (FindLiveObjects: 11.543100 ms CreateObjectMapping: 3.533000 ms MarkObjects: 94.134800 ms  DeleteObjects: 1.419000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 36793d589e411b34c9b1b5a8723a9e78 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 16.199 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 48.842 seconds
+Domain Reload Profiling: 64943ms
+	BeginReloadAssembly (5409ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (312ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (761ms)
+	RebuildCommonClasses (1427ms)
+	RebuildNativeTypeToScriptingClass (466ms)
+	initialDomainReloadingComplete (1269ms)
+	LoadAllAssembliesAndSetupDomain (7513ms)
+		LoadAssemblies (10230ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (744ms)
+			TypeCache.Refresh (268ms)
+				TypeCache.ScanAssembly (31ms)
+			ScanForSourceGeneratedMonoScriptInfo (233ms)
+			ResolveRequiredComponents (217ms)
+	FinalizeReload (48859ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (31113ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (219ms)
+			SetLoadedEditorAssemblies (119ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2150ms)
+			ProcessInitializeOnLoadAttributes (27212ms)
+			ProcessInitializeOnLoadMethodAttributes (1160ms)
+			AfterProcessingInitializeOnLoad (250ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (202ms)
+Script is not up to date after domain reload: guid(aaeeb5dcaf069ce469ddc14b3fca806a) path("Assets/Scripts/tERRAINsCRIPTS/Noise.cs") state(2)
+Refreshing native plugins compatible for Editor in 186.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3637.
+Memory consumption went from 127.6 MB to 127.5 MB.
+Total: 66.232700 ms (FindLiveObjects: 2.921400 ms CreateObjectMapping: 2.590000 ms MarkObjects: 59.957900 ms  DeleteObjects: 0.614800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 7469ee7094e4d5d6658d80f9b13a163d -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 27.230 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 60.069 seconds
+Domain Reload Profiling: 87247ms
+	BeginReloadAssembly (8767ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (342ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (1450ms)
+	RebuildCommonClasses (1571ms)
+	RebuildNativeTypeToScriptingClass (668ms)
+	initialDomainReloadingComplete (1012ms)
+	LoadAllAssembliesAndSetupDomain (15144ms)
+		LoadAssemblies (18781ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1883ms)
+			TypeCache.Refresh (263ms)
+				TypeCache.ScanAssembly (14ms)
+			ScanForSourceGeneratedMonoScriptInfo (744ms)
+			ResolveRequiredComponents (843ms)
+	FinalizeReload (60085ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (25403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (240ms)
+			SetLoadedEditorAssemblies (172ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2748ms)
+			ProcessInitializeOnLoadAttributes (20785ms)
+			ProcessInitializeOnLoadMethodAttributes (881ms)
+			AfterProcessingInitializeOnLoad (572ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (427ms)
+Refreshing native plugins compatible for Editor in 208.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3641.
+Memory consumption went from 127.6 MB to 127.5 MB.
+Total: 134.447000 ms (FindLiveObjects: 5.852300 ms CreateObjectMapping: 2.353500 ms MarkObjects: 125.508100 ms  DeleteObjects: 0.517600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Noise.cs: 2f7393d2c386943678c34b03e526fdff -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: b5f68ecde1399f603518e197d7b0fc1a -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 19.193 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 38.174 seconds
+Domain Reload Profiling: 57273ms
+	BeginReloadAssembly (8733ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (1219ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (1612ms)
+	RebuildCommonClasses (1074ms)
+	RebuildNativeTypeToScriptingClass (361ms)
+	initialDomainReloadingComplete (1071ms)
+	LoadAllAssembliesAndSetupDomain (7847ms)
+		LoadAssemblies (10934ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (925ms)
+			TypeCache.Refresh (307ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (327ms)
+			ResolveRequiredComponents (255ms)
+	FinalizeReload (38188ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (21642ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (245ms)
+			SetLoadedEditorAssemblies (145ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2117ms)
+			ProcessInitializeOnLoadAttributes (17831ms)
+			ProcessInitializeOnLoadMethodAttributes (1076ms)
+			AfterProcessingInitializeOnLoad (225ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (210ms)
+Script is not up to date after domain reload: guid(109e436c01d2338419c49228e515c7fc) path("Assets/Scripts/tERRAINsCRIPTS/MapGenerator.cs") state(2)
+Refreshing native plugins compatible for Editor in 118.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3644.
+Memory consumption went from 127.6 MB to 127.6 MB.
+Total: 73.993100 ms (FindLiveObjects: 3.639600 ms CreateObjectMapping: 2.628600 ms MarkObjects: 66.970900 ms  DeleteObjects: 0.607400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d01f22341728f94080178f27f562c279 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 15.103 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 32.231 seconds
+Domain Reload Profiling: 47232ms
+	BeginReloadAssembly (5287ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (244ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (890ms)
+	RebuildCommonClasses (1118ms)
+	RebuildNativeTypeToScriptingClass (347ms)
+	initialDomainReloadingComplete (1069ms)
+	LoadAllAssembliesAndSetupDomain (7163ms)
+		LoadAssemblies (9682ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (778ms)
+			TypeCache.Refresh (247ms)
+				TypeCache.ScanAssembly (8ms)
+			ScanForSourceGeneratedMonoScriptInfo (256ms)
+			ResolveRequiredComponents (247ms)
+	FinalizeReload (32248ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (15678ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (219ms)
+			SetLoadedEditorAssemblies (121ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1958ms)
+			ProcessInitializeOnLoadAttributes (12144ms)
+			ProcessInitializeOnLoadMethodAttributes (953ms)
+			AfterProcessingInitializeOnLoad (280ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (214ms)
+Refreshing native plugins compatible for Editor in 123.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.04 ms.
+Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.7 KB). Loaded Objects now: 3648.
+Memory consumption went from 127.6 MB to 127.6 MB.
+Total: 54.912900 ms (FindLiveObjects: 3.928900 ms CreateObjectMapping: 2.715100 ms MarkObjects: 47.466000 ms  DeleteObjects: 0.640600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 500fdcdc1ea50a8a2b29100c75c9d098 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 9e15bfbe741f13c0feaa4df616de3a1c -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 15.915 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 47.723 seconds
+Domain Reload Profiling: 63640ms
+	BeginReloadAssembly (5495ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (260ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (947ms)
+	RebuildCommonClasses (1323ms)
+	RebuildNativeTypeToScriptingClass (405ms)
+	initialDomainReloadingComplete (1131ms)
+	LoadAllAssembliesAndSetupDomain (7441ms)
+		LoadAssemblies (10222ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (635ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (200ms)
+			ResolveRequiredComponents (201ms)
+	FinalizeReload (47847ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (27226ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (278ms)
+			SetLoadedEditorAssemblies (155ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2362ms)
+			ProcessInitializeOnLoadAttributes (21780ms)
+			ProcessInitializeOnLoadMethodAttributes (1929ms)
+			AfterProcessingInitializeOnLoad (716ms)
+			EditorAssembliesLoaded (6ms)
+		ExecutionOrderSort2 (50ms)
+		AwakeInstancesAfterBackupRestoration (1092ms)
+Script is not up to date after domain reload: guid(08525f8992672ed49b49a3cb389edfb1) path("Assets/Scripts/tERRAINsCRIPTS/MapDisplay.cs") state(2)
+Refreshing native plugins compatible for Editor in 125.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3651.
+Memory consumption went from 127.6 MB to 127.6 MB.
+Total: 70.307700 ms (FindLiveObjects: 7.305100 ms CreateObjectMapping: 3.334200 ms MarkObjects: 58.867100 ms  DeleteObjects: 0.679500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 500fdcdc1ea50a8a2b29100c75c9d098 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 9e15bfbe741f13c0feaa4df616de3a1c -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 21.905 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 47.938 seconds
+Domain Reload Profiling: 69736ms
+	BeginReloadAssembly (5577ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (265ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1062ms)
+	RebuildCommonClasses (1134ms)
+	RebuildNativeTypeToScriptingClass (382ms)
+	initialDomainReloadingComplete (1424ms)
+	LoadAllAssembliesAndSetupDomain (13257ms)
+		LoadAssemblies (15760ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (773ms)
+			TypeCache.Refresh (202ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (305ms)
+			ResolveRequiredComponents (236ms)
+	FinalizeReload (47961ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (18392ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (583ms)
+			SetLoadedEditorAssemblies (361ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3512ms)
+			ProcessInitializeOnLoadAttributes (12447ms)
+			ProcessInitializeOnLoadMethodAttributes (1186ms)
+			AfterProcessingInitializeOnLoad (299ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (168ms)
+Refreshing native plugins compatible for Editor in 120.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.04 ms.
+Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3655.
+Memory consumption went from 127.6 MB to 127.6 MB.
+Total: 63.286400 ms (FindLiveObjects: 4.900800 ms CreateObjectMapping: 3.222500 ms MarkObjects: 54.597500 ms  DeleteObjects: 0.517600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 500fdcdc1ea50a8a2b29100c75c9d098 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d1253fafbb4d4cc390a0ffb43f8ae066 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 16.470 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 31.802 seconds
+Domain Reload Profiling: 48163ms
+	BeginReloadAssembly (5640ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (285ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (946ms)
+	RebuildCommonClasses (1413ms)
+	RebuildNativeTypeToScriptingClass (494ms)
+	initialDomainReloadingComplete (1098ms)
+	LoadAllAssembliesAndSetupDomain (7703ms)
+		LoadAssemblies (10347ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (823ms)
+			TypeCache.Refresh (224ms)
+				TypeCache.ScanAssembly (9ms)
+			ScanForSourceGeneratedMonoScriptInfo (278ms)
+			ResolveRequiredComponents (287ms)
+	FinalizeReload (31816ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (13856ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (262ms)
+			SetLoadedEditorAssemblies (144ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1925ms)
+			ProcessInitializeOnLoadAttributes (10300ms)
+			ProcessInitializeOnLoadMethodAttributes (912ms)
+			AfterProcessingInitializeOnLoad (309ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (360ms)
+Refreshing native plugins compatible for Editor in 103.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3658.
+Memory consumption went from 127.6 MB to 127.6 MB.
+Total: 63.950000 ms (FindLiveObjects: 2.747000 ms CreateObjectMapping: 2.693000 ms MarkObjects: 57.631100 ms  DeleteObjects: 0.792500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 500fdcdc1ea50a8a2b29100c75c9d098 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d1253fafbb4d4cc390a0ffb43f8ae066 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8315.835764 seconds.
+  path: Assets/Scripts/tERRAINsCRIPTS/MapDisplay.cs
+  artifactKey: Guid(08525f8992672ed49b49a3cb389edfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/tERRAINsCRIPTS/MapDisplay.cs using Guid(08525f8992672ed49b49a3cb389edfb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6c9a2842e260c1498e1587f544f29127') in 0.040264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 23.486 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 52.412 seconds
+Domain Reload Profiling: 75856ms
+	BeginReloadAssembly (9492ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (515ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (1278ms)
+	RebuildCommonClasses (1313ms)
+	RebuildNativeTypeToScriptingClass (353ms)
+	initialDomainReloadingComplete (1464ms)
+	LoadAllAssembliesAndSetupDomain (10776ms)
+		LoadAssemblies (15658ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (984ms)
+			TypeCache.Refresh (485ms)
+				TypeCache.ScanAssembly (16ms)
+			ScanForSourceGeneratedMonoScriptInfo (210ms)
+			ResolveRequiredComponents (262ms)
+	FinalizeReload (52458ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (25160ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (233ms)
+			SetLoadedEditorAssemblies (169ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3902ms)
+			ProcessInitializeOnLoadAttributes (19682ms)
+			ProcessInitializeOnLoadMethodAttributes (878ms)
+			AfterProcessingInitializeOnLoad (294ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (296ms)
+Refreshing native plugins compatible for Editor in 231.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3662.
+Memory consumption went from 127.4 MB to 127.4 MB.
+Total: 73.276000 ms (FindLiveObjects: 4.188800 ms CreateObjectMapping: 3.367600 ms MarkObjects: 64.817000 ms  DeleteObjects: 0.739600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MapGeneratorEditor.cs: 20f7f1c2b40d2afb54642aef20360805 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 500fdcdc1ea50a8a2b29100c75c9d098 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 6aa526c6d7a20e6a9d462df782ca3ff1 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d1253fafbb4d4cc390a0ffb43f8ae066 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 17.147 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 47.190 seconds
+Domain Reload Profiling: 64195ms
+	BeginReloadAssembly (5805ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (296ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (863ms)
+	RebuildCommonClasses (1131ms)
+	RebuildNativeTypeToScriptingClass (414ms)
+	initialDomainReloadingComplete (1111ms)
+	LoadAllAssembliesAndSetupDomain (8518ms)
+		LoadAssemblies (11135ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1152ms)
+			TypeCache.Refresh (414ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (345ms)
+			ResolveRequiredComponents (352ms)
+	FinalizeReload (47216ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (24869ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (243ms)
+			SetLoadedEditorAssemblies (138ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2242ms)
+			ProcessInitializeOnLoadAttributes (19373ms)
+			ProcessInitializeOnLoadMethodAttributes (2512ms)
+			AfterProcessingInitializeOnLoad (357ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (233ms)
+Refreshing native plugins compatible for Editor in 92.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.03 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3665.
+Memory consumption went from 127.7 MB to 127.6 MB.
+Total: 52.713600 ms (FindLiveObjects: 2.533800 ms CreateObjectMapping: 2.619400 ms MarkObjects: 46.736600 ms  DeleteObjects: 0.743700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MapGeneratorEditor.cs: aa0ded47ab4786ad2f70cd17794bebbc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 500fdcdc1ea50a8a2b29100c75c9d098 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: ffe251073e190150c59dd2e85afd3df4 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d1253fafbb4d4cc390a0ffb43f8ae066 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 754.373115 seconds.
+  path: Assets/Editor/MapGeneratorEditor.cs
+  artifactKey: Guid(5124927374df32440ac1a584e291b494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/MapGeneratorEditor.cs using Guid(5124927374df32440ac1a584e291b494) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'babcae4d58014d6c171eb2163f8b96de') in 0.051935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 17.442 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 36.138 seconds
+Domain Reload Profiling: 53483ms
+	BeginReloadAssembly (5952ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (216ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (794ms)
+	RebuildCommonClasses (1815ms)
+	RebuildNativeTypeToScriptingClass (518ms)
+	initialDomainReloadingComplete (1194ms)
+	LoadAllAssembliesAndSetupDomain (7849ms)
+		LoadAssemblies (11254ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (661ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (226ms)
+			ResolveRequiredComponents (220ms)
+	FinalizeReload (36156ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (17759ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (201ms)
+			SetLoadedEditorAssemblies (116ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2460ms)
+			ProcessInitializeOnLoadAttributes (13134ms)
+			ProcessInitializeOnLoadMethodAttributes (1320ms)
+			AfterProcessingInitializeOnLoad (525ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (323ms)
+Refreshing native plugins compatible for Editor in 82.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3668.
+Memory consumption went from 127.4 MB to 127.4 MB.
+Total: 39.915600 ms (FindLiveObjects: 3.018700 ms CreateObjectMapping: 2.358400 ms MarkObjects: 33.594400 ms  DeleteObjects: 0.863100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MapGeneratorEditor.cs: aa0ded47ab4786ad2f70cd17794bebbc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 500fdcdc1ea50a8a2b29100c75c9d098 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: ffe251073e190150c59dd2e85afd3df4 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d1253fafbb4d4cc390a0ffb43f8ae066 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 16.535 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 35.213 seconds
+Domain Reload Profiling: 51626ms
+	BeginReloadAssembly (5273ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (285ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (772ms)
+	RebuildCommonClasses (1629ms)
+	RebuildNativeTypeToScriptingClass (520ms)
+	initialDomainReloadingComplete (1226ms)
+	LoadAllAssembliesAndSetupDomain (7750ms)
+		LoadAssemblies (10302ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (764ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (287ms)
+			ResolveRequiredComponents (207ms)
+	FinalizeReload (35228ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (15656ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (290ms)
+			SetLoadedEditorAssemblies (137ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2204ms)
+			ProcessInitializeOnLoadAttributes (11908ms)
+			ProcessInitializeOnLoadMethodAttributes (868ms)
+			AfterProcessingInitializeOnLoad (241ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (206ms)
+Refreshing native plugins compatible for Editor in 96.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.03 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3671.
+Memory consumption went from 127.7 MB to 127.6 MB.
+Total: 68.112300 ms (FindLiveObjects: 4.396100 ms CreateObjectMapping: 2.583100 ms MarkObjects: 60.498900 ms  DeleteObjects: 0.514500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MapGeneratorEditor.cs: aa0ded47ab4786ad2f70cd17794bebbc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 500fdcdc1ea50a8a2b29100c75c9d098 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: ffe251073e190150c59dd2e85afd3df4 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d1253fafbb4d4cc390a0ffb43f8ae066 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 17.566 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 32.744 seconds
+Domain Reload Profiling: 50226ms
+	BeginReloadAssembly (6032ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (302ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (1059ms)
+	RebuildCommonClasses (1676ms)
+	RebuildNativeTypeToScriptingClass (466ms)
+	initialDomainReloadingComplete (1177ms)
+	LoadAllAssembliesAndSetupDomain (8116ms)
+		LoadAssemblies (11176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (705ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (10ms)
+			ScanForSourceGeneratedMonoScriptInfo (250ms)
+			ResolveRequiredComponents (204ms)
+	FinalizeReload (32759ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (14993ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (361ms)
+			SetLoadedEditorAssemblies (176ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2108ms)
+			ProcessInitializeOnLoadAttributes (11103ms)
+			ProcessInitializeOnLoadMethodAttributes (1024ms)
+			AfterProcessingInitializeOnLoad (217ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (251ms)
+Refreshing native plugins compatible for Editor in 100.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3674.
+Memory consumption went from 127.7 MB to 127.6 MB.
+Total: 65.528600 ms (FindLiveObjects: 3.667700 ms CreateObjectMapping: 2.905600 ms MarkObjects: 58.176100 ms  DeleteObjects: 0.685300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MapGeneratorEditor.cs: aa0ded47ab4786ad2f70cd17794bebbc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 500fdcdc1ea50a8a2b29100c75c9d098 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: ffe251073e190150c59dd2e85afd3df4 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d1253fafbb4d4cc390a0ffb43f8ae066 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 16.842 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 35.672 seconds
+Domain Reload Profiling: 52444ms
+	BeginReloadAssembly (5242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (248ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (782ms)
+	RebuildCommonClasses (1071ms)
+	RebuildNativeTypeToScriptingClass (351ms)
+	initialDomainReloadingComplete (985ms)
+	LoadAllAssembliesAndSetupDomain (9110ms)
+		LoadAssemblies (11566ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (913ms)
+			TypeCache.Refresh (291ms)
+				TypeCache.ScanAssembly (10ms)
+			ScanForSourceGeneratedMonoScriptInfo (358ms)
+			ResolveRequiredComponents (232ms)
+	FinalizeReload (35685ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (16490ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (268ms)
+			SetLoadedEditorAssemblies (193ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2464ms)
+			ProcessInitializeOnLoadAttributes (11936ms)
+			ProcessInitializeOnLoadMethodAttributes (1247ms)
+			AfterProcessingInitializeOnLoad (378ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (290ms)
+Refreshing native plugins compatible for Editor in 105.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.03 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3677.
+Memory consumption went from 127.7 MB to 127.6 MB.
+Total: 72.400700 ms (FindLiveObjects: 6.604800 ms CreateObjectMapping: 4.076000 ms MarkObjects: 60.983900 ms  DeleteObjects: 0.681700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MapGeneratorEditor.cs: aa0ded47ab4786ad2f70cd17794bebbc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 500fdcdc1ea50a8a2b29100c75c9d098 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: ffe251073e190150c59dd2e85afd3df4 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d1253fafbb4d4cc390a0ffb43f8ae066 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 19.018 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 34.558 seconds
+Domain Reload Profiling: 53301ms
+	BeginReloadAssembly (4669ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (232ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (695ms)
+	RebuildCommonClasses (1132ms)
+	RebuildNativeTypeToScriptingClass (776ms)
+	initialDomainReloadingComplete (1697ms)
+	LoadAllAssembliesAndSetupDomain (10454ms)
+		LoadAssemblies (12523ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (889ms)
+			TypeCache.Refresh (228ms)
+				TypeCache.ScanAssembly (9ms)
+			ScanForSourceGeneratedMonoScriptInfo (342ms)
+			ResolveRequiredComponents (271ms)
+	FinalizeReload (34573ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (15429ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (343ms)
+			SetLoadedEditorAssemblies (149ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2327ms)
+			ProcessInitializeOnLoadAttributes (11593ms)
+			ProcessInitializeOnLoadMethodAttributes (818ms)
+			AfterProcessingInitializeOnLoad (196ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (199ms)
+Refreshing native plugins compatible for Editor in 114.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.03 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3680.
+Memory consumption went from 127.7 MB to 127.6 MB.
+Total: 73.036300 ms (FindLiveObjects: 4.885900 ms CreateObjectMapping: 3.613600 ms MarkObjects: 63.878800 ms  DeleteObjects: 0.597300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MapGeneratorEditor.cs: aa0ded47ab4786ad2f70cd17794bebbc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 500fdcdc1ea50a8a2b29100c75c9d098 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: ffe251073e190150c59dd2e85afd3df4 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d1253fafbb4d4cc390a0ffb43f8ae066 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 17.548 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 30.056 seconds
+Domain Reload Profiling: 47521ms
+	BeginReloadAssembly (5836ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (364ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (953ms)
+	RebuildCommonClasses (1420ms)
+	RebuildNativeTypeToScriptingClass (639ms)
+	initialDomainReloadingComplete (1144ms)
+	LoadAllAssembliesAndSetupDomain (8411ms)
+		LoadAssemblies (11212ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (802ms)
+			TypeCache.Refresh (247ms)
+				TypeCache.ScanAssembly (11ms)
+			ScanForSourceGeneratedMonoScriptInfo (258ms)
+			ResolveRequiredComponents (275ms)
+	FinalizeReload (30071ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (12443ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (228ms)
+			SetLoadedEditorAssemblies (130ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1735ms)
+			ProcessInitializeOnLoadAttributes (9364ms)
+			ProcessInitializeOnLoadMethodAttributes (739ms)
+			AfterProcessingInitializeOnLoad (242ms)
+			EditorAssembliesLoaded (5ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (223ms)
+Refreshing native plugins compatible for Editor in 98.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3683.
+Memory consumption went from 127.7 MB to 127.6 MB.
+Total: 47.641900 ms (FindLiveObjects: 2.578200 ms CreateObjectMapping: 1.717400 ms MarkObjects: 42.635400 ms  DeleteObjects: 0.600500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MapGeneratorEditor.cs: aa0ded47ab4786ad2f70cd17794bebbc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 500fdcdc1ea50a8a2b29100c75c9d098 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: ffe251073e190150c59dd2e85afd3df4 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d1253fafbb4d4cc390a0ffb43f8ae066 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 22.293 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 32.587 seconds
+Domain Reload Profiling: 54774ms
+	BeginReloadAssembly (9028ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (387ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (1705ms)
+	RebuildCommonClasses (1617ms)
+	RebuildNativeTypeToScriptingClass (644ms)
+	initialDomainReloadingComplete (1286ms)
+	LoadAllAssembliesAndSetupDomain (9600ms)
+		LoadAssemblies (13929ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (812ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (7ms)
+			ScanForSourceGeneratedMonoScriptInfo (184ms)
+			ResolveRequiredComponents (309ms)
+	FinalizeReload (32600ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (13060ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (217ms)
+			SetLoadedEditorAssemblies (124ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2002ms)
+			ProcessInitializeOnLoadAttributes (9621ms)
+			ProcessInitializeOnLoadMethodAttributes (879ms)
+			AfterProcessingInitializeOnLoad (211ms)
+			EditorAssembliesLoaded (6ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (182ms)
+Refreshing native plugins compatible for Editor in 104.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3686.
+Memory consumption went from 127.7 MB to 127.6 MB.
+Total: 64.085900 ms (FindLiveObjects: 3.933000 ms CreateObjectMapping: 3.872100 ms MarkObjects: 55.547700 ms  DeleteObjects: 0.563600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MapGeneratorEditor.cs: aa0ded47ab4786ad2f70cd17794bebbc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 33080963103aea90155250fd5245e2a2 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: ffe251073e190150c59dd2e85afd3df4 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e6a2db0c45326f491b41b094265c249e -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 21.336 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 47.871 seconds
+Domain Reload Profiling: 69130ms
+	BeginReloadAssembly (7593ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (364ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (1463ms)
+	RebuildCommonClasses (1190ms)
+	RebuildNativeTypeToScriptingClass (548ms)
+	initialDomainReloadingComplete (1477ms)
+	LoadAllAssembliesAndSetupDomain (10437ms)
+		LoadAssemblies (14172ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (869ms)
+			TypeCache.Refresh (250ms)
+				TypeCache.ScanAssembly (12ms)
+			ScanForSourceGeneratedMonoScriptInfo (273ms)
+			ResolveRequiredComponents (281ms)
+	FinalizeReload (47885ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (22748ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (278ms)
+			SetLoadedEditorAssemblies (140ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2609ms)
+			ProcessInitializeOnLoadAttributes (17855ms)
+			ProcessInitializeOnLoadMethodAttributes (1467ms)
+			AfterProcessingInitializeOnLoad (391ms)
+			EditorAssembliesLoaded (8ms)
+		ExecutionOrderSort2 (1ms)
+		AwakeInstancesAfterBackupRestoration (453ms)
+Refreshing native plugins compatible for Editor in 92.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3690.
+Memory consumption went from 127.7 MB to 127.7 MB.
+Total: 69.592100 ms (FindLiveObjects: 6.148400 ms CreateObjectMapping: 2.959700 ms MarkObjects: 59.796500 ms  DeleteObjects: 0.597700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MapGeneratorEditor.cs: aa0ded47ab4786ad2f70cd17794bebbc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TextureGenerator.cs: 0b50bfec782c2faaf4f68e89a4b501d3 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 33080963103aea90155250fd5245e2a2 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: ffe251073e190150c59dd2e85afd3df4 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3d5fcdf3816ae87ced4cb1e5beed2608 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 21.869 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 35.803 seconds
+Domain Reload Profiling: 57573ms
+	BeginReloadAssembly (8454ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (598ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (1688ms)
+	RebuildCommonClasses (1214ms)
+	RebuildNativeTypeToScriptingClass (391ms)
+	initialDomainReloadingComplete (1237ms)
+	LoadAllAssembliesAndSetupDomain (10460ms)
+		LoadAssemblies (14499ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (719ms)
+			TypeCache.Refresh (260ms)
+				TypeCache.ScanAssembly (13ms)
+			ScanForSourceGeneratedMonoScriptInfo (215ms)
+			ResolveRequiredComponents (217ms)
+	FinalizeReload (35817ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (16107ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (312ms)
+			SetLoadedEditorAssemblies (346ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4213ms)
+			ProcessInitializeOnLoadAttributes (10166ms)
+			ProcessInitializeOnLoadMethodAttributes (834ms)
+			AfterProcessingInitializeOnLoad (232ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (222ms)
+Refreshing native plugins compatible for Editor in 99.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.03 ms.
+Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3693.
+Memory consumption went from 127.7 MB to 127.7 MB.
+Total: 46.282000 ms (FindLiveObjects: 2.368000 ms CreateObjectMapping: 1.753600 ms MarkObjects: 41.508600 ms  DeleteObjects: 0.566200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MapGeneratorEditor.cs: aa0ded47ab4786ad2f70cd17794bebbc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TextureGenerator.cs: 0b50bfec782c2faaf4f68e89a4b501d3 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 33080963103aea90155250fd5245e2a2 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: ffe251073e190150c59dd2e85afd3df4 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 3d5fcdf3816ae87ced4cb1e5beed2608 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 29.850 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 69.858 seconds
+Domain Reload Profiling: 99625ms
+	BeginReloadAssembly (11867ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (719ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (2147ms)
+	RebuildCommonClasses (2170ms)
+	RebuildNativeTypeToScriptingClass (706ms)
+	initialDomainReloadingComplete (2259ms)
+	LoadAllAssembliesAndSetupDomain (12752ms)
+		LoadAssemblies (18365ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (796ms)
+			TypeCache.Refresh (255ms)
+				TypeCache.ScanAssembly (11ms)
+			ScanForSourceGeneratedMonoScriptInfo (216ms)
+			ResolveRequiredComponents (294ms)
+	FinalizeReload (69870ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (24012ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (626ms)
+			SetLoadedEditorAssemblies (150ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2434ms)
+			ProcessInitializeOnLoadAttributes (19871ms)
+			ProcessInitializeOnLoadMethodAttributes (724ms)
+			AfterProcessingInitializeOnLoad (204ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (183ms)
+Refreshing native plugins compatible for Editor in 246.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3697.
+Memory consumption went from 127.7 MB to 127.7 MB.
+Total: 250.072900 ms (FindLiveObjects: 4.709200 ms CreateObjectMapping: 2.549600 ms MarkObjects: 241.642700 ms  DeleteObjects: 1.085300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MeshGenerator.cs: 673dee40309f7cc85e619e758eb41cf4 -> 
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MapGeneratorEditor.cs: aa0ded47ab4786ad2f70cd17794bebbc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TextureGenerator.cs: 0b50bfec782c2faaf4f68e89a4b501d3 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 33080963103aea90155250fd5245e2a2 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: ffe251073e190150c59dd2e85afd3df4 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: db3a50a2c0b8c2a9e555963f53915946 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 29.475 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 78.907 seconds
+Domain Reload Profiling: 108329ms
+	BeginReloadAssembly (10913ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (395ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (3027ms)
+	RebuildCommonClasses (3063ms)
+	RebuildNativeTypeToScriptingClass (377ms)
+	initialDomainReloadingComplete (2010ms)
+	LoadAllAssembliesAndSetupDomain (13033ms)
+		LoadAssemblies (18017ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1481ms)
+			TypeCache.Refresh (737ms)
+				TypeCache.ScanAssembly (8ms)
+			ScanForSourceGeneratedMonoScriptInfo (444ms)
+			ResolveRequiredComponents (281ms)
+	FinalizeReload (78932ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (44142ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (204ms)
+			SetLoadedEditorAssemblies (111ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1767ms)
+			ProcessInitializeOnLoadAttributes (37771ms)
+			ProcessInitializeOnLoadMethodAttributes (1665ms)
+			AfterProcessingInitializeOnLoad (2622ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (330ms)
+Refreshing native plugins compatible for Editor in 74.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3700.
+Memory consumption went from 127.7 MB to 127.7 MB.
+Total: 78.914800 ms (FindLiveObjects: 3.887100 ms CreateObjectMapping: 2.319600 ms MarkObjects: 71.449900 ms  DeleteObjects: 1.218600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MeshGenerator.cs: 4cb4164cc21f7f524e91abc501846bd6 -> 
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MapGeneratorEditor.cs: aa0ded47ab4786ad2f70cd17794bebbc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TextureGenerator.cs: 0b50bfec782c2faaf4f68e89a4b501d3 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 33080963103aea90155250fd5245e2a2 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: ffe251073e190150c59dd2e85afd3df4 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e7ed518a45acdbe14fe025d7ddb226fa -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.089 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 12.529 seconds
+Domain Reload Profiling: 18595ms
+	BeginReloadAssembly (1941ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (82ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (629ms)
+	RebuildCommonClasses (267ms)
+	RebuildNativeTypeToScriptingClass (108ms)
+	initialDomainReloadingComplete (328ms)
+	LoadAllAssembliesAndSetupDomain (3417ms)
+		LoadAssemblies (4046ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (334ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (92ms)
+			ResolveRequiredComponents (87ms)
+	FinalizeReload (12534ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6210ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (86ms)
+			SetLoadedEditorAssemblies (49ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1117ms)
+			ProcessInitializeOnLoadAttributes (4433ms)
+			ProcessInitializeOnLoadMethodAttributes (429ms)
+			AfterProcessingInitializeOnLoad (94ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (73ms)
+Refreshing native plugins compatible for Editor in 33.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3703.
+Memory consumption went from 127.7 MB to 127.7 MB.
+Total: 19.200000 ms (FindLiveObjects: 1.481300 ms CreateObjectMapping: 0.937100 ms MarkObjects: 16.442100 ms  DeleteObjects: 0.310700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MeshGenerator.cs: 4cb4164cc21f7f524e91abc501846bd6 -> 
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MapGeneratorEditor.cs: aa0ded47ab4786ad2f70cd17794bebbc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TextureGenerator.cs: 0b50bfec782c2faaf4f68e89a4b501d3 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 33080963103aea90155250fd5245e2a2 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: ffe251073e190150c59dd2e85afd3df4 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e7ed518a45acdbe14fe025d7ddb226fa -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.210 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  9.947 seconds
+Domain Reload Profiling: 15142ms
+	BeginReloadAssembly (1572ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (89ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (236ms)
+	RebuildCommonClasses (404ms)
+	RebuildNativeTypeToScriptingClass (113ms)
+	initialDomainReloadingComplete (640ms)
+	LoadAllAssembliesAndSetupDomain (2458ms)
+		LoadAssemblies (3195ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (80ms)
+				TypeCache.ScanAssembly (5ms)
+			ScanForSourceGeneratedMonoScriptInfo (65ms)
+			ResolveRequiredComponents (74ms)
+	FinalizeReload (9955ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4200ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (76ms)
+			SetLoadedEditorAssemblies (40ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (557ms)
+			ProcessInitializeOnLoadAttributes (3031ms)
+			ProcessInitializeOnLoadMethodAttributes (302ms)
+			AfterProcessingInitializeOnLoad (193ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (143ms)
+Refreshing native plugins compatible for Editor in 50.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3706.
+Memory consumption went from 127.7 MB to 127.7 MB.
+Total: 23.884100 ms (FindLiveObjects: 1.400600 ms CreateObjectMapping: 1.640400 ms MarkObjects: 20.533700 ms  DeleteObjects: 0.285800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MeshGenerator.cs: 4cb4164cc21f7f524e91abc501846bd6 -> 
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MapGeneratorEditor.cs: aa0ded47ab4786ad2f70cd17794bebbc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TextureGenerator.cs: 0b50bfec782c2faaf4f68e89a4b501d3 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 33080963103aea90155250fd5245e2a2 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: ffe251073e190150c59dd2e85afd3df4 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e7ed518a45acdbe14fe025d7ddb226fa -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.247 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 12.403 seconds
+Domain Reload Profiling: 17625ms
+	BeginReloadAssembly (1831ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (81ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (231ms)
+	RebuildCommonClasses (344ms)
+	RebuildNativeTypeToScriptingClass (112ms)
+	initialDomainReloadingComplete (330ms)
+	LoadAllAssembliesAndSetupDomain (2600ms)
+		LoadAssemblies (3661ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (72ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (66ms)
+			ResolveRequiredComponents (69ms)
+	FinalizeReload (12408ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5950ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (76ms)
+			SetLoadedEditorAssemblies (47ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (655ms)
+			ProcessInitializeOnLoadAttributes (4871ms)
+			ProcessInitializeOnLoadMethodAttributes (243ms)
+			AfterProcessingInitializeOnLoad (55ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (48ms)
+Refreshing native plugins compatible for Editor in 58.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3709.
+Memory consumption went from 127.7 MB to 127.7 MB.
+Total: 29.835900 ms (FindLiveObjects: 1.480000 ms CreateObjectMapping: 1.529300 ms MarkObjects: 26.406800 ms  DeleteObjects: 0.396300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MeshGenerator.cs: 4cb4164cc21f7f524e91abc501846bd6 -> 
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MapGeneratorEditor.cs: aa0ded47ab4786ad2f70cd17794bebbc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TextureGenerator.cs: 0b50bfec782c2faaf4f68e89a4b501d3 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 33080963103aea90155250fd5245e2a2 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: ffe251073e190150c59dd2e85afd3df4 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e7ed518a45acdbe14fe025d7ddb226fa -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.676 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 10.314 seconds
+Domain Reload Profiling: 14957ms
+	BeginReloadAssembly (1496ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (86ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (208ms)
+	RebuildCommonClasses (591ms)
+	RebuildNativeTypeToScriptingClass (132ms)
+	initialDomainReloadingComplete (309ms)
+	LoadAllAssembliesAndSetupDomain (2109ms)
+		LoadAssemblies (2812ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (260ms)
+			TypeCache.Refresh (74ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (99ms)
+			ResolveRequiredComponents (75ms)
+	FinalizeReload (10319ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4683ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (78ms)
+			SetLoadedEditorAssemblies (42ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (552ms)
+			ProcessInitializeOnLoadAttributes (3516ms)
+			ProcessInitializeOnLoadMethodAttributes (418ms)
+			AfterProcessingInitializeOnLoad (77ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (59ms)
+Refreshing native plugins compatible for Editor in 31.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3712.
+Memory consumption went from 127.7 MB to 127.7 MB.
+Total: 25.143900 ms (FindLiveObjects: 1.568000 ms CreateObjectMapping: 0.817500 ms MarkObjects: 22.499200 ms  DeleteObjects: 0.236400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MeshGenerator.cs: 4cb4164cc21f7f524e91abc501846bd6 -> 
+  custom:scripting/monoscript/fileName/Noise.cs: 8c769ab96d8e4f66380db355c1907102 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MapDisplay.cs: d14f9cfd46116e0aedd7b607eb7d9afc -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MapGeneratorEditor.cs: aa0ded47ab4786ad2f70cd17794bebbc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/Tower.cs: 16583eaf01662413665c0a8803428cd6 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:scripting/monoscript/fileName/DiamondSqaureTerrain.cs: ba209a34e76714d67c8f06adcc3bffc9 -> 
+  custom:scripting/monoscript/fileName/DefenderSpawner.cs: 81ba4b73dbd4fff1c177add2b80a5fcc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/HealthBar.cs: e02a13ebfecfefd70171c0594cf22391 -> 
+  custom:scripting/monoscript/fileName/Defender.cs: 36351e4d6f1d3372727656e47826dc52 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 63718781f6e53fffc8020eb125684fb4 -> 
+  custom:scripting/monoscript/fileName/Terrain.cs: 22760cce6d7db1276ee4f7c54d86e540 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/TextureGenerator.cs: 0b50bfec782c2faaf4f68e89a4b501d3 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MapGenerator.cs: 33080963103aea90155250fd5245e2a2 -> 
+  custom:scripting/monoscript/fileName/TowerDefenceTerrain.cs: e77d2201e43c2d2554d8c136ac3976a0 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 13cc614454c9ae28caa24456faa3d7cf -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GameTerrain.cs: 215ac66083f18e9179244476316ce98e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/EnemySpawner.cs: a9fea330da2ea253142424fd9aa964ea -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: ffe251073e190150c59dd2e85afd3df4 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e7ed518a45acdbe14fe025d7ddb226fa -> 
