@@ -27,6 +27,12 @@ public class MapGenerator : MonoBehaviour
 
     public TerrainType[] regions;
 
+    private void Start()
+    {
+        seed= Random.Range(200, 1000);
+        GenerateMap();
+    }
+
     public void GenerateMap()
     {
         float[,] noiseMap = Noise.GenerateNoiseMap(mapChunkSize, mapChunkSize, seed, noiseScale, octaves, persistance, lacunarity,offset);
